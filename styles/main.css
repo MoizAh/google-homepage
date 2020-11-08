@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+.top-left-nav {
+    display: flex;
+}
+
+.top-right-nav {
+    display: flex;
+    padding-right: 40px;
+}
+
+li {
+    padding-right: 10px;
+    list-style-type: none;
+}
