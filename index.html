@@ -10,32 +10,47 @@
     <title>google-homepage</title>
 </head>
 <body>
-    <nav class="flex-container space-between">
-        <ul class="top-left-nav">
-            <li>About</li>
-            <li>Store</li>
-        </ul>
-        <ul class="top-right-nav">
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>*app image*</li>
-            <li>*profile picture*</li>
-        </ul>
-    </nav>
-    <footer>
-        <div class="bottom-left-top">Canada</div>
-        <div class="footer-nav">
-            <ul class="bottom-left-nav">
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search works</li>
+    <div class="container">
+        <nav class="flex-container space-between">
+            <ul class="top-left-nav">
+                <li>About</li>
+                <li>Store</li>
             </ul>
-            <ul class="bottom-right-nav">
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+            <ul class="top-right-nav">
+                <li>Gmail</li>
+                <li>Images</li>
+                <li><img src="/images/apps-24px.svg" alt="applications icon"></li>
+                <li><img src="/images/profile_picture.jpg" alt="profile picture icon" class="profile-picture"></li>
             </ul>
+        </nav>
+        <div class="center">
+            <div>
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+            </div>
+            <div class="search">
+                <!-- <img src="/images/search-24px.svg" alt="search icon" class="search-icon"> -->
+                <input type="text" placeholder="" class="search-bar">
+            </div>
+            <div class="buttons">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
         </div>
-    </footer>
+        <footer>
+            <div class="bottom-left-top">Canada</div>
+            <div class="footer-nav">
+                <ul class="bottom-left-nav">
+                    <li>Advertising</li>
+                    <li>Business</li>
+                    <li>How Search works</li>
+                </ul>
+                <ul class="bottom-right-nav">
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
